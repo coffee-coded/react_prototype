@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ccaaa913-b1f2-4a0a-bc82-d2287df8f420" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585915844267</updated>
-      <workItem from="1585915845726" duration="2400000" />
+      <workItem from="1585915845726" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1585917465678</created>
@@ -88,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585918138898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first">
+      <created>1585918365448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585918365448</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,34 +105,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1585918135671">
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1585918363487">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1585918135671" />
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1585918363487" />
     <state x="547" y="278" key="Github.ShareDialog" timestamp="1585916859453">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="547" y="278" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1585916859453" />
-    <state width="1345" height="171" key="GridCell.Tab.0.bottom" timestamp="1585918342451">
+    <state width="1345" height="171" key="GridCell.Tab.0.bottom" timestamp="1585918462124">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585918342451" />
-    <state width="1345" height="171" key="GridCell.Tab.0.center" timestamp="1585918342451">
+    <state width="1345" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585918462124" />
+    <state width="1345" height="171" key="GridCell.Tab.0.center" timestamp="1585918462124">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585918342451" />
-    <state width="1345" height="171" key="GridCell.Tab.0.left" timestamp="1585918342450">
+    <state width="1345" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585918462124" />
+    <state width="1345" height="171" key="GridCell.Tab.0.left" timestamp="1585918462124">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585918342450" />
-    <state width="1345" height="171" key="GridCell.Tab.0.right" timestamp="1585918342451">
+    <state width="1345" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585918462124" />
+    <state width="1345" height="171" key="GridCell.Tab.0.right" timestamp="1585918462124">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585918342451" />
-    <state x="275" y="112" key="Vcs.Push.Dialog.v2" timestamp="1585918143022">
+    <state width="1345" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585918462124" />
+    <state x="275" y="112" key="Vcs.Push.Dialog.v2" timestamp="1585918367996">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="112" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1585918143022" />
+    <state x="275" y="112" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1585918367996" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585918139695">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
