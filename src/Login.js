@@ -16,10 +16,24 @@ class Login extends Component {
 
     login(e){
         e.preventDefault();
-        fire.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u) => {
-        }).catch((error)=> {
-            console.log(error);
-        });
+        // fire.auth().signInWithEmailAndPassword(this.state.email.trim(), this.state.password).then((u) => {
+        // }).catch((error)=> {
+        //     console.log(error);
+        // });
+
+        const {email, password} = this.state;
+        this.setState({ error: '', loading: true });
+        fire.auth().signInWithEmailAndPassword(email.trim(), password)
+            .then()
+            .catch( (err) => {
+                fire.auth().createUserWithEmailAndPassword(email.trim(), password)
+                    .then()
+                    .catch(error => {
+                        console.log(this.state);
+                        console.log(error)
+                    });
+            });
+
         console.log(this.state.email, this.state.password)
     }
 
@@ -41,8 +55,8 @@ class Login extends Component {
                 <hr width='400px' height = '12px'/>
                 <br/><br/>
                 <form className="Fo" onSubmit = {this.cp}>
-                    <input name="User" type='Email' className = "us" onChange={this.handleChange} placeholder="Email"/><br/><br/>
-                    <input name="Pass" type='password' className = "pa" onChange={this.handleChange} placeholder="Password"/><br/><br/>
+                    <input name="email" type='Email' className = "us" onChange={this.handleChange} placeholder="Email"/><br/><br/>
+                    <input name="password" type='password' className = "pa" onChange={this.handleChange} placeholder="Password"/><br/><br/>
                     <button type="submit" onClick={this.login}>Login</button>
                     <br/>
                     {this.state.email}<br/>
