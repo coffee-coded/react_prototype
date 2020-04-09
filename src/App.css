@@ -1,38 +1,128 @@
 .App {
   text-align: center;
+  background-color: rgba(250, 249, 250, 1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .Fo .us {
+  transition: width 0.3s;
+  border: rebeccapurple;
+  block-size: 40px;
+    text-align: center ;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(250, 249, 250, 1);
+      border-bottom-style: solid;
+      border-bottom-width: 2.00px;
+      border-left-style: solid;
+      border-left-width: 2.00px;
+      border-right-style: solid;
+      border-right-width: 2.00px;
+      border-top-style: solid;
+      border-top-width: 2.00px;
+      border-top-left-radius: 45.00px;
+      border-top-right-radius: 45.00px;
+      border-bottom-left-radius: 45.00px;
+      border-bottom-right-radius: 45.00px;
+      -webkit-filter: drop-shadow(5px 4px 5px rgba(97, 121, 199, 1));
+    filter: drop-shadow(5px 4px 5px rgba(97, 121, 199, 1));
+      width: 219.00px;
+    height: 39.00px;
+    left: 639.00px;
+    top: 342.00px;
+}
+.App .Fo .us:hover {
+  width : 232px;
+}
+.App .Fo .pa:hover {
+  width : 232px;
+}
+.App .Fo .pa {
+  transition: width 0.3s;
+  border: rebeccapurple;
+  block-size: 40px;
+  text-align: center ;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(250, 249, 250, 1);
+  border-bottom-style: solid;
+  border-bottom-width: 2.00px;
+  border-left-style: solid;
+  border-left-width: 2.00px;
+  border-right-style: solid;
+  border-right-width: 2.00px;
+  border-top-style: solid;
+  border-top-width: 2.00px;
+  border-top-left-radius: 45.00px;
+  border-top-right-radius: 45.00px;
+  border-bottom-left-radius: 45.00px;
+  border-bottom-right-radius: 45.00px;
+  -webkit-filter: drop-shadow(5px 4px 5px rgba(97, 121, 199, 1));
+filter: drop-shadow(5px 4px 5px rgba(97, 121, 199, 1));
+  width: 219.00px;
+height: 39.00px;
+left: 639.00px;
+top: 342.00px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .path3 {
+  position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      fill: rgba(241, 0, 0, 1);
+      background-color:  rgba(241, 0, 0, 1);
+      stroke: rgba(112, 112, 112, 1);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      box-shadow: none;
+      -webkit-filter: blur(11px);
+  filter: blur(11px);
+      width: 239.05px;
+    height: 795.83px;
+    left: -1.15px;
+    top: -1.50px;
 }
